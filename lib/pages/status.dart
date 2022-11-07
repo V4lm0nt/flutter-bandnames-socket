@@ -24,7 +24,6 @@ class StatusPage extends StatelessWidget {
      floatingActionButton: FloatingActionButton(
       child: const Icon(Icons.message),
       onPressed: (){
-        //TODO: TAREA
         //EMITIR MENSAJE
         // MENSAJE : {nombre: 'flutter' , mensaje: 'hola desde flutter'}
           Map<String,String> mensaje = {

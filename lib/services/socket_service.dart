@@ -32,7 +32,7 @@ class SocketService with ChangeNotifier{
 
   void _initConfig(){
   
-    _socket = IO.io('http://10.0.2.2:3000/',{
+    _socket = IO.io('https://fnodejs-socket-server.herokuapp.com/',{
     
       'transports':['websocket'],
       'autoConnect': true

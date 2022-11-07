@@ -204,7 +204,7 @@ Map<String, double> dataMap = {};
 
 
   return Container(
-    margin: EdgeInsets.only(top: 20),
+    margin: const EdgeInsets.only(top: 20),
     width: double.infinity,
     height: 200,
     child: PieChart(
